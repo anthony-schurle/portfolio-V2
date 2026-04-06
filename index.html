@@ -4,7 +4,7 @@
         <title>Anthony Schurle</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Personal Website of Anthony Schurle">
+        <meta name="description" content="Personal website of Anthony Schurle, a Rice University student in mathematics and computer science interested in logic in computer science, finite model theory, and descriptive complexity.">
         <meta name="author" content="Anthony Schurle">
         <link rel="stylesheet" href="styles/style.css">
     </head>
@@ -14,19 +14,26 @@
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#research">Research</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#cv">CV</a></li>
-                    <li><a href="#readings">Readings & Solutions</a></li>
+                    <li><a href="#notes">Notes & Solutions</a></li>
+                    <li><a href="assets/CV.pdf" target="_blank" rel="noopener">CV</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
+
         <main>
             <section id="about">
                 <h2>About</h2>
                 <div class="about-container">
                     <div class="about-content">
-                        <p>I'm a sophomore at Rice University studying mathematics and computer science. I'm interested in graph theory, combinatorics, and theoretical computer science - particularly how structural properties of discrete objects interact with algorithmic efficiency.</p>
+                        <p>
+                            I’m a sophomore at Rice University studying mathematics and computer science. My interests lie at the interface of logic and theoretical computer science, with a particular current interest in descriptive complexity. I’m especially interested in perspectives on computation that arise from logic: not only what can be computed, but what can be expressed.
+                        </p>
+                        <p>
+                            My <a href="assets/CV.pdf" target="_blank" rel="noopener">CV is available here</a>.
+                        </p>
                     </div>
                     <div class="photo-frame">
                         <img src="assets/PROFF_PHOTO.JPG" alt="Anthony Schurle">
@@ -37,11 +44,16 @@
                     <p>"Thinking is learning all over again how to see, directing one's consciousness, making of every image a privileged place."</p>
                     <footer>— Albert Camus</footer>
                 </blockquote>
+            </section>
 
-                <blockquote>
-                    <p>"ὁ μὲν γὰρ κόσμιος καὶ σώφρων καὶ δίκαιος ἀνὴρ εὐδαίμων ἐστίν. (For the orderly soul is temperate and just, and the soul of the temperate man is happy.)"</p>
-                    <footer>— Plato</footer>
-                </blockquote>
+            <section id="research">
+                <h2 class="violet-accent">Research Interests</h2>
+                <p>
+                    My current interests are in logic in computer science, finite model theory, and descriptive complexity. More broadly, I am interested in structural approaches to theoretical computer science and in logical perspectives on computation.
+                </p>
+                <p class="section-note">
+                    Research notes, expository writing, and future publications will be added here as they become available.
+                </p>
             </section>
             
             <section id="projects">
@@ -49,88 +61,53 @@
                 
                 <div class="project violet-border">
                     <h3>Graft: Interactive Graph Theory Sandbox</h3>
-                    <p><em>JavaScript, SVG</em> | January 2026 - Present</p>
-                    <p>A Desmos-style web application for building and exploring graphs through an intuitive visual interface. Features real-time computation of graph properties including degree sequences, connectivity, bipartiteness, and chromatic number. Designed for students testing constructions, instructors creating examples, and researchers prototyping conjectures.</p>
+                    <p><em>JavaScript, SVG</em> | January 2026 – Present</p>
+                    <p>
+                        An interactive graph theory environment for constructing graphs and exploring structural properties. Supports dynamic computation of graph properties including degree sequences, connectivity, bipartiteness, and chromatic number. Designed for students testing constructions, instructors creating examples, and researchers prototyping conjectures.
+                    </p>
                 </div>
 
                 <div class="project violet-border">
                     <h3>r2a: RISC-V Disassembler</h3>
                     <p><em>Python, RISC-V</em> | Fall 2025</p>
-                    <p>Developed a formal specification for RISC-V instruction decoding using decision-tree optimization. Built a testing pipeline verifying binary equivalence between assembly and machine code.</p>
+                    <p>
+                        Developed a formal specification for RISC-V instruction decoding using decision-tree optimization. Built a test harness to validate decoding correctness against reference instruction encodings.
+                    </p>
                 </div>
 
                 <div class="project violet-border">
                     <h3>Epidemiological Transmission Mapping</h3>
                     <p><em>Python</em> | Fall 2025</p>
-                    <p>Modeled bacterial infection spread as a complete weighted directed graph using genetic (Hamming distance) and epidemiological data. Implemented greedy algorithms to infer a rooted directed minimum spanning tree (RDMST) representing likely transmission pathways.</p>
-                </div>
-                
-                <h3 style="margin-top: 2rem; color: var(--text-primary); font-size: 1.1rem;">Future Work</h3>
-                <p style="color: var(--text-secondary); font-style: italic;">Research publications and presentations will be listed here as they become available.</p>
-            </section>
-            
-            <section id="cv">
-                <h2>CV</h2>
-                <p>Download my full CV: <a href="assets/CV.pdf">CV (PDF)</a></p>
-                
-                <div class="cv-card">
-                    <h3>Education</h3>
-                    <p><strong>Rice University</strong> | Houston, TX | August 2024 - May 2028<br>
-                    B.A. in Mathematics & B.S. in Computer Science<br>
-                    GPA: 3.74/4.00</p>
-                    
-                    <p><strong>Relevant Coursework:</strong></p>
-                    <ul>
-                        <li><em>Graduate:</em> General Topology (current)</li>
-                        <li><em>Undergraduate:</em> Honors Linear Algebra (current), Number Theory (current), Potpourri in Extremal Graph Theory (current), Honors Ordinary Differential Equations, Honors Statistics, Algorithmic Thinking</li>
-                    </ul>
-                </div>
-                
-                <div class="cv-card">
-                    <h3>Honors & Awards</h3>
-                    <p><strong>Trustee Distinguished Academic Scholarship</strong> | Rice University | $80,000<br>
-                    Merit-based scholarship awarded to incoming students demonstrating exceptional academic achievement.</p>
-
-                    <p><strong>President's Honor Roll</strong> | Rice University | Fall 2025<br>
-                    Recognition awarded to students in the top 30% of undergraduates based on semester GPA.</p>
-                </div>
-                
-                <div class="cv-card">
-                    <h3>Experience</h3>
-                    <p><strong>Teaching Assistant - Algorithmic Thinking (COMP182)</strong> | Rice University | January 2026 - Present<br>
-                    Supporting students in algorithm design, asymptotic analysis, and correctness reasoning.</p>
-                    
-                    <p><strong>Teaching Assistant - Computational Thinking (COMP140)</strong> | Rice University | August 2025 - December 2025<br>
-                    Led weekly lab sessions for 20+ students and hosted office hours with 100+ student interactions. Coordinated a campus-wide scavenger hunt event for 200+ attendees featuring A* search algorithm implementation.</p>
-                </div>
-                
-                <div class="cv-card">
-                    <h3>Technical Skills</h3>
-                    <p><strong>Languages:</strong> Python, C, Java, JavaScript, RISC-V Assembly, x86-64 Assembly</p>
-                    <p><strong>Tools:</strong> LaTeX, Git & GitHub, Docker, Linux Shell</p>
+                    <p>
+                        Modeled bacterial infection spread as a complete weighted directed graph using genetic (Hamming distance) and epidemiological data. Implemented greedy algorithms to infer a rooted directed minimum spanning tree representing likely transmission pathways.
+                    </p>
                 </div>
             </section>
             
-            <section id="readings">
-                <h2 class="violet-accent">Readings & Solutions</h2>
-                <p>I'm working through foundational texts in mathematics and theoretical computer science. Solutions are provided freely to help others learning these subjects.</p>
+            <section id="notes">
+                <h2 class="violet-accent">Notes & Solutions</h2>
+                <p>
+                    I am working through foundational texts in mathematics and theoretical computer science. As I prepare polished notes and solutions, I will post them here for others studying similar material.
+                </p>
                 
                 <h3>Current</h3>
                 <ul>
-                    <li><em>How to Prove It: A Structured Approach</em> by Daniel J. Velleman - <a href="#" class="violet-link">Solutions (PDF)</a></li>
+                    <li><em>An Introduction to Mathematical Logic</em> by Herbert Enderton</li>
+                    <li><em>How to Prove It: A Structured Approach</em> by Daniel J. Velleman</li>
                 </ul>
             </section>
             
             <section id="contact">
                 <h2>Contact</h2>
-                <p>I'm interested in conversations about graph theory, combinatorics, and theoretical computer science.</p>
+                <p>I’m interested in conversations about logic in computer science, descriptive complexity, graph theory, and theoretical computer science.</p>
                 <p>Email: <a href="mailto:as556@rice.edu" target="_blank">as556@rice.edu</a></p>
-                <p>GitHub: <a href="https://github.com/anthony-schurle" target="_blank">github.com/anthony-schurle</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/anthony-schurle/" target="_blank">linkedin.com/in/anthony-schurle</a></p>
+                <p>GitHub: <a href="https://github.com/anthony-schurle" target="_blank" rel="noopener">github.com/anthony-schurle</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/anthony-schurle/" target="_blank" rel="noopener">linkedin.com/in/anthony-schurle</a></p>
             </section>
         </main>
+
         <footer>
-            <p>&copy; 2025 Anthony Schurle | Last updated: February 2026</p>
+            <p>&copy; 2026 Anthony Schurle | Last updated: April 2026</p>
         </footer>
     </body>
 </html>
